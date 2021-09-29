@@ -22,9 +22,15 @@ public class PrimitivneDatoveTypy01 {
 
         int z = x++ +(y*x) - --y/2;
 
-    System.out.println(z);
+        System.out.println(z);
 
 
+    boolean pravdaNepravda = true;
+        boolean pravdaNepravda1 = x > y;
+
+        System.out.println(" mam ho ja vecsie? :" + pravdaNepravda);
     }
+
+
 
 }
