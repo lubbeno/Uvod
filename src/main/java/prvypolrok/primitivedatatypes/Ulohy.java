@@ -1,4 +1,4 @@
-package primitivedatatypes;
+package prvypolrok.primitivedatatypes;
 
 // https://java.meritcampus.com/core-java-questions/Hikes-and-Hikes
 // https://javaconceptoftheday.com/quiz-on-increment-and-decrement-operators/

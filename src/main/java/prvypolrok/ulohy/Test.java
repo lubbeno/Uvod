@@ -1,4 +1,4 @@
-package ulohy;
+package prvypolrok.ulohy;
 
 import java.util.*;
 
@@ -100,7 +100,7 @@ public class Test {
             public void clear() {
 
             }
-        }
+        };
 
         ttest.add(300);
         //ttest.add(40);

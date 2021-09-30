@@ -1,4 +1,4 @@
-package ulohy;
+package prvypolrok.ulohy;
 
 public class september23 {
 

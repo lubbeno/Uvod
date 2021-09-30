@@ -22,7 +22,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>primitivedatatypes.CeleCisla</mainClass>
+                            <mainClass>prvypolrok.primitivedatatypes.CeleCisla</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
