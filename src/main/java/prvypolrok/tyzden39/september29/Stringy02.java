@@ -7,7 +7,7 @@ public class Stringy02 {
         String meno = "Lubos";
         String priezvisko ="Sukup";
         String celeMeno = meno + " " + priezvisko;
-
+        int cislo = 0;
         celeMeno.indexOf(" ");
 
         System.out.println(celeMeno.indexOf("u"));
@@ -18,5 +18,19 @@ public class Stringy02 {
        int indexPriezviska = celeMeno.indexOf(priezvisko);
         celeMeno.indexOf("Sukup");
         System.out.println(celeMeno.substring(indexPriezviska));
+
+        System.out.println("================================================");
+
+        char charakter = celeMeno.charAt(4);
+        System.out.println(charakter);
+        System.out.println(charakter + 1 );
+
+        String novePriezisko = celeMeno.substring(celeMeno.indexOf('S'));
+        System.out.print(novePriezisko.charAt(0));
+        System.out.print(novePriezisko.charAt(1));
+        System.out.print(novePriezisko.charAt(2));
+        System.out.print(novePriezisko.charAt(3));
+        System.out.println(novePriezisko.charAt(4));
+
     }
 }
