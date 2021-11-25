@@ -11,7 +11,10 @@ public class UlohaString {
 
 
     public static void main(String[] args) {
-        osemPoli();
+        jePalindrom("Lubos");
+
+
+
     }
    static String text = " Clovek mierou svojeho chápania pracuje na seba, " +
                             "a mierou nechápania na tých, kto chápe viac";
@@ -50,6 +53,27 @@ public class UlohaString {
 
     }
     
+
+   static boolean jePalindrom (String SlovoNaKontrolu){
+
+
+      for (int x=0;SlovoNaKontrolu.length()>x;x++){
+          System.out.println(SlovoNaKontrolu.charAt(x));
+      }
+String slovo="";
+      for( int x = SlovoNaKontrolu.length()-1; x >=0; x--){
+         // System.out.println(SlovoNaKontrolu.charAt(x));
+         // String slovo ="";
+          slovo = slovo + SlovoNaKontrolu.charAt(x);
+          System.out.println(slovo);
+      }
+
+
+
+      return SlovoNaKontrolu == slovo;
+     }
+
+
 
 }
 
