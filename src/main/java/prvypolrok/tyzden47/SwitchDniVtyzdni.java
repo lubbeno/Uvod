@@ -6,6 +6,10 @@ public class SwitchDniVtyzdni {
     public static void main(String[] args) {
         System.out.println("danny den v tyzdni je: " + denVtyzdni(2));
         System.out.println("danny den v tyzdni je: " + denVtyzdniSwitch(2));
+
+        denVtyzdniSwitch2(2);
+        denVtyzdniSwitch2(1);
+
     }
 
     static String denVtyzdni(int x) {
@@ -34,5 +38,24 @@ public class SwitchDniVtyzdni {
                 return "Neplatne cislo";
         }
     }
+
+
+    static void denVtyzdniSwitch2(int x) {
+String denVtyzdni="";
+        switch (x) {
+            case 1:
+            case 4:
+                denVtyzdni="spolocky so 4 ";
+                break;
+            case 2:
+                denVtyzdni="Utorok";
+            case 3:
+                denVtyzdni="nedela";
+            default:
+                denVtyzdni="Neplatne cislo";
+        }
+        System.out.println(denVtyzdni);
+    }
+
 
 }
