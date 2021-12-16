@@ -7,11 +7,10 @@ public class MatematickeUlohy {
 
     public static void main(String[] args) {
 
-        int vysledok =0;
-        // 1, 46, 4, 34, 5, 76, 44, 34, 5, 6, 6, 77,9,81,74,4 ,41,21,11,2,3,9,0,88,54,32,990,1258,2,4745,295
+        nic(new int[]{2,5,56,6,5});
 
-        // uloha: sucet cisiel takych ktore su parne a ich odmocnina je mensia ako 4
-        //omodcnnia Math.
+        int vysledok =0;
+        // vypisat z pola elementy indexa 1;11;20;41;53;68
             int[] test = new  int[]{1, 46, 4, 34, 5, 76, 44, 34, 5, 6, 6, 77,9,81,74,4 ,41,21,11,2,3,9,0,88,54,32,990,1258,2,4745,295};
             System.out.println(Arrays.stream(test)
                     .filter(a -> a %2 ==0 )
@@ -19,5 +18,10 @@ public class MatematickeUlohy {
                     .sum());
 
     }
+
+        static void nic(int[] pole){
+
+        }
+
 
 }
