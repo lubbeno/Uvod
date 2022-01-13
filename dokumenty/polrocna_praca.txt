@@ -1,0 +1,19 @@
+
+1. deklaracia a inicializacia
+2. primitivne datove typy.
+3. main metoda. popis na co sluzi, syntax JVM
+4. rozdiel medzi triedou a balickom
+5. syntax triedy - co musi obsahovat kazda trieda
+6. aritmeticke operacie + - * / %  s int long double
+7. logicke operacie || a &&
+8. vetvenie kodu, syntax
+9. cykly, syntax
+9b. while a do while
+10. switch
+11. String
+12. Polia/ arrays
+13. metody
+
+
+
+
