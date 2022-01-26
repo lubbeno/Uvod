@@ -5,12 +5,8 @@ import java.util.Arrays;
 public class Opakovanie {
 
     public static void main(String[] args) {
-        ulohy1_11();
-
-        int[] t = {12,8,0,7,54} ;
-        int[] t1 = new int[]{12,8,0,7,54};
-        maxCislo(t);
-        System.out.println(maxCislo(t));
+       vypocet();
+       bonus();
     }
 
     public static void ulohy1_11(){
@@ -42,6 +38,7 @@ public class Opakovanie {
 
         System.out.println(more.toString());
         System.out.println(nerob.toString());
+        System.out.println(Arrays.toString(menoPole));
     }
 
     public static int maxCislo(int[] i){
@@ -71,4 +68,42 @@ public class Opakovanie {
        long parne = Arrays.stream(i).filter(a -> a%2==0).count();
         return "Parne cisla: "+ parne + "Neparne cisla: " + (i.length-parne);
     }
+
+
+    public static void vypocet(){
+
+        int x =1;
+        int y = 2;
+        int z = (++y*2 +1)%3 + x--;
+
+        System.out.println("x " + x+ " y " +y + " z " +z );
+
+        int e=1 ; int f = 0;
+       boolean out = ( ( false ) || (++e > 1) ) || ( (f == 0) && (  e == 2 ) );
+
+        System.out.println(out);
+    }
+ static void bonus() {
+
+     int x = 3;
+     int z = 1;
+     for (int i = 0; i < 3; i++) {
+         if (x % 2 == 0) {
+             z++;
+             x--;
+         } else {
+             x = x * 2;
+             z++;
+         }
+     }
+
+
+
+     System.out.println("x " + x + " z " +z );
+ }
+
+
+
+
+
 }

@@ -10,6 +10,7 @@ public class Test {
     public static void main(String[] args) {
         int[] myArray = IntStream.rangeClosed(0,100).toArray();
             printOut(myArray);
+            uloha();
     }
 
     static void printOut(int[] a){
@@ -27,5 +28,22 @@ public class Test {
         }
 
         return array;
+    }
+
+    static void uloha() {
+
+       int x = 3;
+       int z = 1;
+       for (int i =0; i<3; i++){
+           if(x%2 ==0) {
+               z++;
+               x--;
+           }else {
+               x = x*2;
+               z++;
+           }
+       }
+
+        System.out.println( x + " " + z);
     }
 }

@@ -1,5 +1,7 @@
 package prvypolrok.tyzden47;
 
+import java.util.HashMap;
+
 public class SwitchDniVtyzdni {
 
 
@@ -23,7 +25,11 @@ public class SwitchDniVtyzdni {
         } else {
             return "Neplatne cislo";
         }
+
+
     }
+
+
 
     static String denVtyzdniSwitch(int x) {
 
