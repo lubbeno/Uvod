@@ -13,7 +13,7 @@ public class UlohaArrayList {
 
       pridanie(testovaciePole,"prvy Zaznam");
         System.out.println(testovaciePole);
-        
+
     }
 
     public static void pridanie(ArrayList<String> pole, String stringNaPridanie){
