@@ -2,6 +2,7 @@ package druhypolrok.tyzden04;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class ArrrayListy {
 
@@ -74,6 +75,15 @@ public class ArrrayListy {
         System.out.println(pole2);
 
 
+        Comparator<String> compare = (a , b) -> {
+            if(a.length() > b.length()){
+                return 1;
+            }else {
+                return 0;
+            }
+        };
+
+            poleArrayList.sort(String::compareTo);
     }
 
 
