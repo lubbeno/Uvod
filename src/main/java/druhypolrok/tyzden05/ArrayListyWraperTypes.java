@@ -21,5 +21,8 @@ public class ArrayListyWraperTypes {
         poleArrayList.add("jedna");
         poleArrayList.remove("jedna");
         System.out.println( poleArrayList.toString());
+
+
+        long i [] = new long[   ]{12};
 }
 }
