@@ -38,4 +38,9 @@ pole.add(2);
         // ak nie ke unikatny tak sa len vypise do konzoly: element X uz existuje v poli
 
     }
+
+    static void test(){
+
+
+    }
 }
