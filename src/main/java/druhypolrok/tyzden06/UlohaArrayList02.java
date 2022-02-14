@@ -23,12 +23,12 @@ pole.add(2);
         System.out.println(pole);
     }
     private static void zorandeniePola() {
-/*        Comparator<Integer> comp = ( a , b) -> {
+       Comparator<Integer> comp = ( a , b) -> {
             if(a>b)return 1;
             else if( b > a) return -1;
             else return 0;
         };
-        pole.sort(comp);*/
+        pole.sort(comp);
 
         Collections.sort(pole);
     }

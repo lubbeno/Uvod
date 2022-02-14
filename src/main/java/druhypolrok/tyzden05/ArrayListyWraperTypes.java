@@ -23,6 +23,6 @@ public class ArrayListyWraperTypes {
         System.out.println( poleArrayList.toString());
 
 
-        long i [] = new long[   ]{12};
+        long i [] = new long[]{12};
 }
 }
