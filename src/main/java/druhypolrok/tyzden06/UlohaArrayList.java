@@ -27,6 +27,7 @@ public class UlohaArrayList {
 
         System.out.println(test02);
 
+
     }
 
     static void polia(){
@@ -36,12 +37,6 @@ public class UlohaArrayList {
         myBoolean02.add(false);
         myBoolean02.add(true);
         myBoolean02.add(false);
-
-
-
-
-
-
 
     }
 
