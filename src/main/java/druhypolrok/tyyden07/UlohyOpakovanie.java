@@ -1,5 +1,6 @@
 package druhypolrok.tyyden07;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,6 +19,7 @@ public class UlohyOpakovanie {
         System.out.println(kontorla30(pole05));
         System.out.println(kontorla30(pole06));
 
+        System.out.println(neparneCisla(pole05));
 
     }
     /*
@@ -53,9 +55,18 @@ public class UlohyOpakovanie {
  neparne cisla
  */
    static List<Integer> neparneCisla(List<Integer> pole){
-
+       ArrayList<Integer> parneCisla = new ArrayList<>();
+        for(int i = 0;pole.size()>i;i++){
+         if(pole.get(i)%2==0) {
+        parneCisla.add(pole.get(i));
     }
-   static List<Integer> parneCisla(List<Integer> pole){
+}
+        return parneCisla;
+    }
 
+
+
+   static List<Integer> parneCisla(List<Integer> pole){
+return  null;
     }
 }
