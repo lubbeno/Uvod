@@ -26,7 +26,7 @@ public class NaseFilmy {
             pornoherecky.add(erzika);
 
         for (PornoHerec phc: pornoherci) {
-            System.out.println( "dlzka ciciny " + phc.menoPriezvisko + " je " + phc.dlzkaCiciny);
+            System.out.println( "dlzka ciciny " + phc.getMenoPriezvisko() + " je " + phc.getDlzkaCiciny());
         }
 
         for (PornoHerecka pornoHerecka : pornoherecky) {

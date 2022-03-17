@@ -5,11 +5,11 @@ import java.util.List;
 
 public class PornoHerec {
 
-    String menoPriezvisko;
-    String pseudonym;
-    double dlzkaCiciny;
-    double objemVacku;
-    double dostrek;
+    private String menoPriezvisko;
+          private    String pseudonym;
+    private double dlzkaCiciny;
+          private    double objemVacku;
+         private     double dostrek;
     List<String> filmy = new ArrayList<>();
     final double objemJednehoStriku = 6.0;
 
@@ -30,7 +30,20 @@ public class PornoHerec {
         objemVacku = objemVacku - objemJednehoStriku;
     }
 
+    public void setObjemVacku(double objem){
+        if(objem < 0){
+            objemVacku = 0;
+        }else {
+            objemVacku = objem;
+        }
+    }
 
+    public double getObjemVacku(){
+        return objemVacku;
+    }
+
+    public String getMenoPriezvisko(){ return menoPriezvisko;}
+    public double getDlzkaCiciny(){return  dlzkaCiciny;}
     @Override
     public String toString() {
         return "PornoHerec{" +
