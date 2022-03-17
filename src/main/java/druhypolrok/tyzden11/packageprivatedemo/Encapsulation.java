@@ -19,15 +19,15 @@ public class Encapsulation {
         pornoherci.add(ferko);
 
         for (PornoHerec phc: pornoherci) {
-            System.out.println( "dlzka ciciny " + phc.menoPriezvisko + " je " + phc.dlzkaCiciny);
+            System.out.println( "dlzka ciciny " + phc.getMenoPriezvisko() + " je " + phc.getDlzkaCiciny());
         }
 
-        jarko.pseudonym = "nic";
+       // jarko.pseudonym = "nic";
        // jarko.objemVacku = -39;
         jarko.setObjemVacku(-39);
-        jarko.menoPriezvisko = "trtko";
+       // jarko.menoPriezvisko = "trtko";
         for (PornoHerec phc: pornoherci) {
-            System.out.println( "dlzka ciciny " + phc.menoPriezvisko + " je " + phc.dlzkaCiciny);
+            System.out.println( "dlzka ciciny " + phc.getMenoPriezvisko() + " je " + phc.getDlzkaCiciny());
         }
     }
 }

@@ -11,7 +11,7 @@ public class PornoHerec {
           private    double objemVacku;
          private     double dostrek;
     List<String> filmy = new ArrayList<>();
-    final double objemJednehoStriku = 6.0;
+   private final double objemJednehoStriku = 6.0;
 
     private PornoHerec() {
     }
@@ -40,6 +40,14 @@ public class PornoHerec {
 
     public double getObjemVacku(){
         return objemVacku;
+    }
+
+    public String getPseudonym() {
+        return pseudonym;
+    }
+
+    public double getDostrek() {
+        return dostrek;
     }
 
     public String getMenoPriezvisko(){ return menoPriezvisko;}
