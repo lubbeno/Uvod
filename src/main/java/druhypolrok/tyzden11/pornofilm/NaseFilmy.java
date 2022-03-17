@@ -25,8 +25,15 @@ public class NaseFilmy {
             pornoherecky.add(evka);
             pornoherecky.add(erzika);
 
+        for (PornoHerec phc: pornoherci) {
+            System.out.println( "dlzka ciciny " + phc.menoPriezvisko + " je " + phc.dlzkaCiciny);
+        }
 
-        System.out.println( "dlzka ciciny " + jarko.menoPriezvisko + " je " + jarko.dlzkaCiciny);
+        for (PornoHerecka pornoHerecka : pornoherecky) {
+            System.out.println("hlbka chacharuse " + pornoHerecka.menoPriezvisko
+                    + " je " + pornoHerecka.hlbkaChacharuse);
+        }
+       // System.out.println( "dlzka ciciny " + jarko.menoPriezvisko + " je " + jarko.dlzkaCiciny);
 
     }
 }
