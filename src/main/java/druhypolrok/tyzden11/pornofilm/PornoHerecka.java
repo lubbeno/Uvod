@@ -11,7 +11,7 @@ public class PornoHerecka {
     double hlbkaChacharuse;
     List<String> filmy = new ArrayList<>();
 
-    private PornoHerecka() {
+    public PornoHerecka() {
     }
 
     public PornoHerecka(String menoPriezvisko, String pseudonym,

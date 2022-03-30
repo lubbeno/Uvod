@@ -6,16 +6,16 @@ import java.util.List;
 public class PornoHerec {
 
     private String menoPriezvisko;
-          private    String pseudonym;
+    private String pseudonym;
     private double dlzkaCiciny;
-          private    double objemVacku;
-         private     double dostrek;
+    private double objemVacku;
+    private double dostrek;
+
     List<String> filmy = new ArrayList<>();
    private final double objemJednehoStriku = 6.0;
 
     private PornoHerec() {
     }
-
     public PornoHerec(String menoPriezvisko, String pseudonym, double dlzkaCiciny,
                       double objemVacku, double dostrek) {
         this.menoPriezvisko = menoPriezvisko;
