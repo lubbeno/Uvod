@@ -30,8 +30,8 @@ public class NaseFilmy {
         }
 
         for (PornoHerecka pornoHerecka : pornoherecky) {
-            System.out.println("hlbka chacharuse " + pornoHerecka.menoPriezvisko
-                    + " je " + pornoHerecka.hlbkaChacharuse);
+            System.out.println("hlbka chacharuse " + pornoHerecka.getMenoPriezvisko()
+                    + " je " + pornoHerecka.getHlbkaChacharuse());
         }
 
         System.out.println("=====================================");

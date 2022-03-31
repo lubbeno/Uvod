@@ -28,8 +28,17 @@ public class Pes {
     }
 
     public void setVek(int vek) {
-        this.vek = vek;
+        if( vek >= 0) {
+            this.vek = vek;
+        }
+        else {
+            System.out.println( " chyba zaporne cislo ");
+        }
+
+
+
     }
+
 
     @Override
     public String toString() {
@@ -49,4 +58,14 @@ public class Pes {
             System.out.println(meno + " pokusal " + pes.meno);
         }
     }
+
+    public String getMeno() {
+        return meno;
+    }
+
+    public String getPohlavie() {
+        return pohlavie;
+    }
+
+
 }
