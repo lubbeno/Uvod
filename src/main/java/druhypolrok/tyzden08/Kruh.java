@@ -8,10 +8,9 @@ public class Kruh {
     public Kruh( double vstupnyAtribut){
         if(vstupnyAtribut > 0){
             polomer = vstupnyAtribut;
-        }else{
+        }else {
             polomer = 0;
         }
-
 
     }
     public double obvod(){
