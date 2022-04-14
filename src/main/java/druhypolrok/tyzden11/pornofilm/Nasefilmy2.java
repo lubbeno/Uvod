@@ -17,7 +17,6 @@ public class Nasefilmy2 {
         pornoHerecka.robiGangbang(herci);
 
         herci.forEach( ph -> System.out.println(ph.getObjemVacku()));
-
     }
 
     private static void getObjemVacku(){
