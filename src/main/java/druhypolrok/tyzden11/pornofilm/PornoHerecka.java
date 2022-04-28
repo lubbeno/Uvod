@@ -3,21 +3,17 @@ package druhypolrok.tyzden11.pornofilm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PornoHerecka {
+public class PornoHerecka extends Herec {
 
-   private String menoPriezvisko;
-    private String pseudonym;
     private double dostrik;
     private double hlbkaChacharuse;
-    private List<String> filmy = new ArrayList<>();
 
     public PornoHerecka() {
     }
 
     public PornoHerecka(String menoPriezvisko, String pseudonym,
                         double dostrik, double hlbkaChacharuse) {
-        this.menoPriezvisko = menoPriezvisko;
-        this.pseudonym = pseudonym;
+        super(menoPriezvisko,pseudonym);
         this.dostrik = dostrik;
         this.hlbkaChacharuse = hlbkaChacharuse;
     }
@@ -29,19 +25,11 @@ public class PornoHerecka {
     @Override
     public String toString() {
         return "PornoHerecka{" +
-                "menoPriezvisko='" + menoPriezvisko + '\'' +
-                ", pseudonym='" + pseudonym + '\'' +
+                "menoPriezvisko='" + super.getMenoPriezvisko() + '\'' +
+                ", pseudonym='" + super.getPseudonym() + '\'' +
                 ", dostrik=" + dostrik +
                 ", hlbkaChacharuse=" + hlbkaChacharuse +
                 '}';
-    }
-
-    public String getMenoPriezvisko() {
-        return menoPriezvisko;
-    }
-
-    public String getPseudonym() {
-        return pseudonym;
     }
 
     public double getDostrik() {
@@ -54,14 +42,6 @@ public class PornoHerecka {
 
     public List<String> getFilmy() {
         return filmy;
-    }
-
-    public void setMenoPriezvisko(String menoPriezvisko) {
-        this.menoPriezvisko = menoPriezvisko;
-    }
-
-    public void setPseudonym(String pseudonym) {
-        this.pseudonym = pseudonym;
     }
 
     public void setDostrik(double dostrik) {
@@ -80,7 +60,7 @@ public class PornoHerecka {
 
         for (PornoHerec pornoHerec : pornoHerci) {
             System.out.println(pornoHerec.getMenoPriezvisko() +" sa zucastnil na obstastneni pornoherecky menom " +
-                    menoPriezvisko);
+                    super.getMenoPriezvisko());
             pornoHerec.setObjemVacku( pornoHerec.getObjemVacku() - 6.0);
         }
         // sout bude "xyz sa zucastnil na obstastneni pornohereciky menom ... "
