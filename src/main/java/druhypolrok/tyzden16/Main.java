@@ -7,7 +7,7 @@ public class Main {
         Muz muz = new Muz();
         Zena zena = new Zena(12, "Edita",155);
 
-        zena.
+
 
     }
 }
