@@ -29,17 +29,16 @@ public class Herec {
         this.pseudonym = pseudonym;
     }
 
-
     public void pridatFilm(String nazovFilmu){
-
-
+        filmy.add(nazovFilmu);
     }
 
-     public boolean odobratFilm(String nazovFilmu){
-        // zistite najprv ci sa film nachadza v zozname
-         // pokial sa film zmaze zo zoznamu navratova hodnota je true
-         // inak false.
-       return false;
-     }
-
+    public boolean odobratFilm(String nazovFilmu){
+        if(filmy.contains(nazovFilmu)){
+          return filmy.remove(nazovFilmu);
+            }
+        else {
+            return false;
+        }
+    }
 }
