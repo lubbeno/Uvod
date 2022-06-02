@@ -18,4 +18,12 @@ public class Muz extends Entita {
     public void zmenimMeno(String muzoveMeno){
         super.setMeno(muzoveMeno);
     }
+
+    @Override
+    public void pohyb(){
+        System.out.println("muz sa hybe");
+    }
+
+
+
 }

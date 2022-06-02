@@ -1,4 +1,4 @@
-package druhypolrok.tyyden07;
+package druhypolrok.tyzden07;
 
 import java.util.ArrayList;
 import java.util.Arrays;

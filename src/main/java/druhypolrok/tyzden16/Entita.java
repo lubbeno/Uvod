@@ -11,7 +11,7 @@ public class Entita {
         this.vek = vek;
         this.meno = meno;
         this.vyska = vyska;
-        System.out.println("vytvori sa entita");
+        //System.out.println("vytvori sa entita");
     }
 
     public int getVek() {
@@ -36,5 +36,13 @@ public class Entita {
 
     public void setVyska(int vyska) {
         this.vyska = vyska;
+    }
+
+    public void pohyb(){
+        System.out.println("entita sa hybe");
+    }
+
+    public void spanok(){
+        System.out.println("entita prdi do duchen");
     }
 }
